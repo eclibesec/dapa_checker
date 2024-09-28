@@ -35,6 +35,7 @@ def process_domain(domain, api_key):
                     f"[+] DOMAIN : {data.get('domain', domain)}\n"
                     f">> DA : {data.get('da', 'N/A')}\n"
                     f">> PA : {data.get('pa', 'N/A')}\n"
+                    f">> ss : {data.get('ss', 'N/A')}\n"
                     f">> AGE : {data.get('domain_age', 'N/A')}\n"
                     f">> IP : {data.get('ip', 'N/A')}\n"
                     "========================"
